@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Tamma 2", cursive;
+  background-image: linear-gradient(
+    90deg,
+    rgb(206, 141, 206),
+    rgb(175, 70, 122)
+  );
+}
+h1 {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 3.4rem;
+}
+#add {
+  text-align: center;
+  padding: 1%;
+  background-color: #1655c9;
+  width: 15%;
+  margin: 0 auto;
+  min-width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#add:hover {
+  background-color: #1655c9c8;
+}
+.form {
+  border: 2px solid #000;
+  margin: 2% auto;
+  width: 25%;
+  border-radius: 10px;
+  min-width: 300px;
+  padding: 3% 3% 1% 3%;
+  background-color: #969b96;
+}
+.hidden {
+  display: none;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  text-align: center;
+}
+#save {
+  padding: 1% 3%;
+  background-color: #1655c9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#save:hover {
+  background-color: #1655c9d2;
+}
+#cancel {
+  padding: 1% 3%;
+  background-color: #be2a2a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#cancel:hover {
+  background-color: #be2a2ad2;
+}
+.contactInList {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 40%;
+  margin: auto;
+  border: 2px solid #101;
+  min-width: 255px;
+  padding: 0.5%;
+}
+.contactInList:hover {
+  background-color: rgba(73, 71, 71, 0.301);
+}
+i {
+  margin-top: 0.8%;
+  cursor: pointer;
+  margin-left: 5%;
+}
+i:hover {
+  color: #b92710;
+}
+.number {
+  color: #052e63;
+}
+span {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+#search {
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 1.2rem;
+}
+#list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 3% auto;
+}
